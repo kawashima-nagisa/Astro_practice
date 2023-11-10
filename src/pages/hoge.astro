@@ -1,0 +1,19 @@
+---
+import '../styles/_hoge.scss';
+// import  '../../public/js/user.js'; // user.ts
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="これはタイトル">
+  <h1>ここはhogeのページ</h1>
+    <img src="/images/logo.svg" alt="" width="500">
+  
+</Layout>
+<!-- <script>
+document.addEventListener("DOMContentLoaded", (event) => {
+	document.querySelector("h1").style.color = "blue";
+});
+</script> -->
+<script is:inline src="js/user.js"></script>
+
+
